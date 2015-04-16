@@ -3,8 +3,9 @@
   <ModulePrefs title="Profile2" 
                height="250" 
                author="SAP" 
-               description="The Profile2 gadget is an example of a list for the profile page. We should add some really long text here. Add some more long text here to test.&#13;&#10;Even more text after the line break."
-               thumbnail="eyes-thm.png">
+               description="The Profile2 gadget is an example of a list for the profile page. We should add some really long text here. Add some more long text here to test.&#13;&#10;Even more text after the line break.">
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />           
     <Require feature="wave" />
     <Require feature="dynamic-height"/>
     <Require feature="minimessage"/>

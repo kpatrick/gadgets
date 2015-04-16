@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
   <ModulePrefs title="Tutorial App" height="250">
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />
     <Require feature="wave" />
     <Require feature="dynamic-height"/>
     <Require feature="minimessage"/>

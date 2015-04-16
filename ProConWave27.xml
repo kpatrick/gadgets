@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Pro/Con Table" title_url="http://sapstreamwork.com/"  height="450" author="Ashish Sinha" author_email="ashish.sinha@sap.com" thumbnail="http://procontable.googlecode.com/files/pro_con_icon.png">
-	<Require feature="wave" /> 
+  <ModulePrefs title="Pro/Con Table" title_url="http://sapstreamwork.com/"  height="450" author="Ashish Sinha" author_email="ashish.sinha@sap.com">
+	  <Require feature="wave" /> 
+	  <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />
   </ModulePrefs>
   <Content type="html">
   	<![CDATA[ 

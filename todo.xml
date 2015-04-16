@@ -15,9 +15,11 @@
   <ModulePrefs height="100" author="Labpixies" author_email="labpixie.gadgets+todo+201301281@gmail.com"
                description="__MSG_desc__" title="__MSG_gTitle__" title_url="http://www.labpixies.com/"
                screenshot="http://www.gstatic.com/ig/modules/labpixies/todo/images/screenshot_igoogle.cache.jpg"
-               thumbnail="http://www.gstatic.com/ig/modules/labpixies/todo/images/thumbnail.cache.jpg"
+               
                render_inline="never" directory_title="">
-
+<Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />
+    
     <Locale
             messages="http://www.labpixies.com/campaigns/todo/i19_shared/all_all_igoogle.xml" />
     <Locale lang="bg" messages="http://www.labpixies.com/campaigns/todo/i20/bg_all.xml" />

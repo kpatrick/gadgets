@@ -8,7 +8,7 @@
                height="121"
                singleton="false"
                screenshot="http://www.google.com/ig/modules/eyes.png"
-               thumbnail="http://www.google.com/ig/modules/eyes-thm.png"
+               
                category="funandgames"
                description="__MSG_description__">
     <Locale messages="http://www.google.com/ig/modules/eyes_content/en_ALL.xml"/>
@@ -51,6 +51,8 @@
     <Locale lang="vi" messages="http://www.google.com/ig/modules/eyes_content/vi_ALL.xml"/>
     <Locale lang="zh-cn" messages="http://www.google.com/ig/modules/eyes_content/zh-cn_ALL.xml"/>
     <Locale lang="zh-tw" messages="http://www.google.com/ig/modules/eyes_content/zh-tw_ALL.xml"/>
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />
   </ModulePrefs>
   <Content type="html" view="home,preview"><![CDATA[
 <style>

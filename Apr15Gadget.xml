@@ -3,7 +3,9 @@
   <ModulePrefs title="Apr15Gadget" 
                height="250" 
                author="SAP" 
-               description="Apr15Gadget">              
+               description="Apr15Gadget">   
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />                     
     <Require feature="wave" />
     <Require feature="dynamic-height"/>
     <Require feature="minimessage"/>

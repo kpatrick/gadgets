@@ -2,6 +2,8 @@
 <Module>
   <ModulePrefs title="Editor" description="The Editor gadget is an example of a list for the content page. We should add some really long text here.&#13;&#10;Add some more long text here to test.">
     <Require feature="osapi" />
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />      
   </ModulePrefs>
   <Content type="html">
     <![CDATA[

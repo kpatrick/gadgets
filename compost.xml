@@ -2,6 +2,8 @@
 <Module>
   <ModulePrefs title="Compost">
     <Require feature="osapi" />
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />
   </ModulePrefs>
   <Content type="html">
     <![CDATA[

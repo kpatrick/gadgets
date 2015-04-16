@@ -3,6 +3,8 @@
   <ModulePrefs title="Hello, world!">
     <!--<Require feature="osapi" />-->
     <Require feature="wave" />
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />
   </ModulePrefs>
   <Content type="html">
     <![CDATA[
