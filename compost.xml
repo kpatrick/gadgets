@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Compost">
+    <Require feature="osapi" />
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+<div id="compost"><iframe src="http://sap.com" width="200"></iframe></div>
+<script>
+function init() {
+  
+}
+gadgets.util.registerOnLoadHandler(init); 
+</script>
+]]>
+  </Content>
+</Module>

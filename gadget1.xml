@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello, world!">
+    <!--<Require feature="osapi" />-->
+    <Require feature="wave" />
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+    
+    
+Hello, world! 3:55
+
+<script>
+
+function renderInfo() {
+}
+
+function init() {
+  console.log("in init");
+  alert("loaded");
+  if (wave && wave.isInWaveContainer()) {
+    wave.setStateCallback(renderInfo);
+    wave.setParticipantCallback(renderInfo);
+  }
+}
+
+var appdata_update = function (){
+  var input = document.getElementById('txtInput').value;
+  osapi.appdata.update({userId: '@viewer', groupId: '@self', data: {foo: input}}).execute(function (userData) {
+    if (userData.error){
+      alert(userData.error.message)
+    }
+    else{
+      alert('The data has been updated: ' + input);
+    }
+ });
+};
+
+console.log("before register");
+gadgets.util.registerOnLoadHandler(init);
+console.log("after register");
+
+</script>
+
+<input type='text' id='txtInput'>
+<button onclick="appdata_update()">update</button>
+<div id="results"></div>
+]]>
+  </Content>
+</Module>

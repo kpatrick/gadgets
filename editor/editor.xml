@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Editor" description="The Editor gadget is an example of a list for the content page. We should add some really long text here.&#13;&#10;Add some more long text here to test.">
+    <Require feature="osapi" />
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+    <link rel="Stylesheet" type="text/css" href="style/jHtmlArea.css" />
+
+<textarea cols="50" rows="10"></textarea>
+<script type="text/javascript" src="scripts/jQuery-1.3.2.js"></script>
+<script type="text/javascript" src="scripts/jHtmlArea-0.8.js"></script>
+<script>
+function init() {
+  $('textarea').htmlarea();
+}
+gadgets.util.registerOnLoadHandler(init);
+</script>
+]]>
+  </Content>
+</Module>

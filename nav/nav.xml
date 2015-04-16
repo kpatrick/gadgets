@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Nav">
+    <Require feature="osapi" />
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+    <table>
+      <tr>
+        <td><img src="steve.png" height=32 width=32></td>
+        <td>
+          <ul>
+            <li><a href="#">Link 1</a>
+            <li><a href="#">Link 2</a>
+            <li><a href="#">Link 3</a>
+            <li><a href="#">Link 4</a>
+            <li><a href="#">Link 5</a>
+          </ul>
+        </td>
+      </tr>
+    </table
+function init() {
+  $('textarea').htmlarea();
+}
+gadgets.util.registerOnLoadHandler(init);
+</script>
+]]>
+  </Content>
+</Module>
