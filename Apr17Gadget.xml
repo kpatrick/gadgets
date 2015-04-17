@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Apr17Gadget" 
+               height="250" 
+               author="SAP" 
+               description="Apr17Gadget">   
+    <Link rel="mediumIcon" href="g38.png" />
+    <Link rel="icon" href="g20.png" />                     
+    <Require feature="wave" />
+    <Require feature="dynamic-height"/>
+    <Require feature="minimessage"/>
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[      
+        <h1>Apr17Gadget</h1>
+      ]]>
+  </Content>
+</Module>
