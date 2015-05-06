@@ -9,18 +9,21 @@
     <Require feature="osapi" />
     <Require feature="dynamic-height"/>
     <Require feature="minimessage"/>
+    <Locale>
+      <msg name="title">Bar</msg>
+    </Locale>
   </ModulePrefs>
   <Content type="html">
     <![CDATA[      
         <h1>Apr21Gadget</h1>
-        <script>
-        osapi.people.get({
-    "userId": "@ME"
-}).execute(function(data) {
-    console.log(data);
-});
-</script>
-      ]]>
+        <h1>${Msg.title}</h1>
 
+        <script>
+        osapi.people.get({"userId": "@ME"}).execute(
+          function(data) {
+            console.log(data);
+          });
+        </script>
+      ]]>
   </Content>
 </Module>
